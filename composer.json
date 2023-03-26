@@ -1,0 +1,17 @@
+{
+  "name": "greta/eval-php-poo",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "maximebf/debugbar": "^1.18",
+    "tecnickcom/tcpdf": "^6.6",
+    "symfony/webpack-encore-bundle": "^1.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

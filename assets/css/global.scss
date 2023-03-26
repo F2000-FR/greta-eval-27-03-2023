@@ -1,0 +1,86 @@
+@import '_colors.scss';
+
+body {
+    background-color: $backgroundColor;
+
+    header, footer {
+        text-align: center;
+    }
+    header {
+        font-size: 18px;
+        &.active {
+
+        }
+        &:hover {
+
+        }
+    }
+    footer {
+        margin: 25px 0;
+        font-size: 8px;
+    }
+
+    main {
+        h1 {
+            margin: 10px 5px;
+        }
+
+        fieldset {
+            margin: 25px;
+        }
+
+        hr {
+            margin: 10px auto;
+            width : 50%;
+        }
+
+        .card-img-top {
+            margin: auto;
+            width: auto;
+            max-height: 250px;
+            max-width: 100%;
+        }
+
+        .btn-primary.active {
+            background-color: #6f42c1;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+            th {
+                text-align: left;
+            }
+            tfoot td {
+                padding: 10px;
+            }
+        }
+
+        .pagination {
+            a {
+                margin: 0 10px;
+                text-decoration: none;
+
+                &.active {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.loader {
+    width: 64px;
+}
+
+#debug {
+    display: none;
+}
+
+.text-sm {
+    font-size: 8px;
+}
+
+nav a.active {
+    font-weight: bold;
+}

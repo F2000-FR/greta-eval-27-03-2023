@@ -73,4 +73,3 @@ Le côté graphique (CSS) n'est pas évalué
 - (15 points) Respect des consignes et programme fonctionnel
 - (3 points) Utilisation des concepts vus en cours (constantes, fonctions, robustesse du langage, etc.)
 - (2 points) Documentation et lisibilité du code
-- (2 points) Bonus
